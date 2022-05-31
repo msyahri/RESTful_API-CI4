@@ -1,32 +1,47 @@
-<?php namespace App\Models;
- 
+<?php
+
+namespace App\Models;
+
 use CodeIgniter\Model;
- 
+
 class ProductModel extends Model
 {
-    protected $table = 'produk';
-    protected $primaryKey = 'id_produk';
-    protected $allowedFields = ['nama_produk','jenis_produk','harga_produk','stok_produk'];
+	protected $DBGroup              = 'default';
+	protected $table                = 'produk';
+	protected $primaryKey           = 'id_produk';
+	protected $useAutoIncrement     = true;
+	protected $insertID             = 0;
+	protected $returnType           = 'array';
+	protected $useSoftDelete        = false;
+	protected $protectFields        = true;
+	protected $allowedFields        = [
+		'nama_produk',
+		'jenis_produk',
+		'harga_produk',
+        'stok_produk'
+	];
 
-    protected $validationRules = [
-        'nama_produk' => 'required',
-        'jenis_produk' => 'required',
-        'harga_produk' => 'required',
-        'stok_produk' => 'required'
-    ];
+	// Dates
+	protected $useTimestamps        = false;
+	protected $dateFormat           = 'datetime';
+	protected $createdField         = 'created_at';
+	protected $updatedField         = 'updated_at';
+	protected $deletedField         = 'deleted_at';
 
-    protected $validationMessages = [
-        'nama_produk' => [ 
-            'required' =>'Nama produk belum diisi!'
-        ],
-        'jenis_produk' => [
-            'required' => 'Jenis produk belum diisi!'
-        ],
-        'harga_produk' => [
-            'required' => 'Harga produk belum diisi!'
-        ],
-        'stok_produk' => [
-            'required' => 'Stok produk belum diisi!'
-        ]
-    ];
+	// Validation
+	protected $validationRules      = [];
+	protected $validationMessages   = [];
+	protected $skipValidation       = false;
+	protected $cleanValidationRules = true;
+
+	// Callbacks
+	protected $allowCallbacks       = true;
+	protected $beforeInsert         = [];
+	protected $afterInsert          = [];
+	protected $beforeUpdate         = [];
+	protected $afterUpdate          = [];
+	protected $beforeFind           = [];
+	protected $afterFind            = [];
+	protected $beforeDelete         = [];
+	protected $afterDelete          = [];
 }

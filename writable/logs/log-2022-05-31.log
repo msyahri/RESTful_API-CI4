@@ -313,3 +313,17 @@ CRITICAL - 2022-05-31 10:10:25 --> Call to a member function errors() on null
 #3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2022-05-31 18:06:31 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 18:16:39 --> Class 'App\Controllers\EmployeeModel' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}

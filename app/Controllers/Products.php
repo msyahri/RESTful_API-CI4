@@ -30,28 +30,58 @@ class Products extends ResourceController
     // create
     public function create()
     {
-        $model = new ProductModel();
-        // $data = [
-        //     'nama_produk' => $this->request->getVar('nama_produk'),
-        //     'jenis_produk' => $this->request->getVar('jenis_produk'),
-        //     'harga_produk' => $this->request->getVar('harga_produk'),
-        //     'stok_produk'  => $this->request->getVar('stok_produk'),
-        // ];
-        $data = $this->request->getPost();
+        $rules = [
+			"nama_produk" => "required",
+			"jenis_produk" => "required",
+			"harga_produk" => "required|numeric|min_length[4]",
+            "stok_produk" => "required",
+		];
 
-        //if(!$model->insert($data)) {
-            if(!$model->insert($data)) {
-            return $this->fail($this->model->errors());
-        }
+		$messages = [
+			"nama_produk" => [
+				"required" => "Nama produk belum diisi"
+			],
+			"jenis_produk" => [
+				"required" => "Jenis produk belum diisi"
+			],
+			"harga_produk"      => [
+				"required"      => "Harga produk belum diisi",
+                "numeric"       => "Format harga tidak valid!",
+                "min_length"    => "Harga tidak valid!"
+			],
+            "stok_produk" => [
+				"required" => "Stok produk belum diisi"
+			],
+		];
 
-        $response = [
-            'status'   => 201,
-            'error'    => null,
-            'messages' => [
-                'success' => 'Data produk berhasil ditambahkan.'
-            ]
-        ];
-        return $this->respondCreated($response);
+		if (!$this->validate($rules, $messages)) {
+
+			$response = [
+				'status' => 500,
+				'error' => true,
+				'message' => $this->validator->getErrors(),
+				'data' => []
+			];
+		} else {
+
+			$emp = new ProductModel();
+
+			$data['nama_produk'] = $this->request->getVar("nama_produk");
+			$data['jenis_produk'] = $this->request->getVar("jenis_produk");
+			$data['harga_produk'] = $this->request->getVar("harga_produk");
+            $data['stok_produk'] = $this->request->getVar("stok_produk");
+
+			$emp->save($data);
+
+			$response = [
+				'status' => 200,
+				'error' => false,
+				'message' => 'Produk berhasil ditambahkan!',
+				'data' => []
+			];
+		}
+
+		return $this->respondCreated($response);
     }
  
     // update product
