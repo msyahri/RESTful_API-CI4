@@ -2,15 +2,15 @@
  
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
-use App\Models\ProductModel;
+use App\Models\M_produk;
  
-class Products extends ResourceController
+class Produk extends ResourceController
 {
     use ResponseTrait;
     // get all product
     public function index()
     {
-        $model = new ProductModel();
+        $model = new M_produk();
         $data = $model->findAll();
         return $this->respond($data, 200);
     }
@@ -18,7 +18,7 @@ class Products extends ResourceController
     // get single product
     public function show($id = null)
     {
-        $model = new ProductModel();
+        $model = new M_produk();
         $data = $model->getWhere(['id_produk' => $id])->getResult();
         if($data){
             return $this->respond($data);
@@ -64,7 +64,7 @@ class Products extends ResourceController
 			];
 		} else {
 
-			$emp = new ProductModel();
+			$emp = new M_produk();
 
 			$data['nama_produk'] = $this->request->getVar("nama_produk");
 			$data['jenis_produk'] = $this->request->getVar("jenis_produk");
@@ -87,7 +87,7 @@ class Products extends ResourceController
     // update product
     public function update($id = null)
     {
-        $model = new ProductModel();
+        $model = new M_produk();
         $json = $this->request->getJSON();
         if($json){
             $data = [
@@ -120,7 +120,7 @@ class Products extends ResourceController
     // delete product
     public function delete($id = null)
     {
-        $model = new ProductModel();
+        $model = new M_produk();
         $data = $model->find($id);
         if($data){
             $model->delete($id);
