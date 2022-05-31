@@ -31,13 +31,19 @@ class Products extends ResourceController
     public function create()
     {
         $model = new ProductModel();
-        $data = [
-            'nama_produk' => $this->request->getVar('nama_produk'),
-            'jenis_produk' => $this->request->getVar('jenis_produk'),
-            'harga_produk' => $this->request->getVar('harga_produk'),
-            'stok_produk'  => $this->request->getVar('stok_produk'),
-        ];
-        $model->insert($data);
+        // $data = [
+        //     'nama_produk' => $this->request->getVar('nama_produk'),
+        //     'jenis_produk' => $this->request->getVar('jenis_produk'),
+        //     'harga_produk' => $this->request->getVar('harga_produk'),
+        //     'stok_produk'  => $this->request->getVar('stok_produk'),
+        // ];
+        $data = $this->request->getPost();
+
+        //if(!$model->insert($data)) {
+            if(!$model->insert($data)) {
+            return $this->fail($this->model->errors());
+        }
+
         $response = [
             'status'   => 201,
             'error'    => null,
