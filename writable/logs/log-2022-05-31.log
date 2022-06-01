@@ -1,0 +1,343 @@
+ERROR - 2022-05-31 04:09:36 --> Table 'rest.product' doesn't exist
+CRITICAL - 2022-05-31 04:09:36 --> Table 'rest.product' doesn't exist
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(14): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-31 04:12:48 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 04:14:01 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 04:14:37 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 04:14:49 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-31 04:59:20 --> Unknown column 'produk.id' in 'where clause'
+CRITICAL - 2022-05-31 04:59:20 --> Unknown column 'produk.id' in 'where clause'
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(91): CodeIgniter\BaseModel->find('2')
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->delete('2')
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-31 05:07:26 --> Unknown column 'produk.id' in 'where clause'
+CRITICAL - 2022-05-31 05:07:26 --> Unknown column 'produk.id' in 'where clause'
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `produk`...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `produk`...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `produk`...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `produk`...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\xampp\htdocs\restfulapi\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(76): CodeIgniter\Model->update('2', Array)
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->update('2')
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#10 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-31 05:09:23 --> Unknown column 'produk.id' in 'where clause'
+CRITICAL - 2022-05-31 05:09:23 --> Unknown column 'produk.id' in 'where clause'
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(91): CodeIgniter\BaseModel->find('2')
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->delete('2')
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-31 05:09:56 --> Unknown column 'produk.id' in 'where clause'
+CRITICAL - 2022-05-31 05:09:56 --> Unknown column 'produk.id' in 'where clause'
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(91): CodeIgniter\BaseModel->find('2')
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->delete('2')
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-05-31 05:11:37 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:15:36 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:16:01 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:48:33 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:49:00 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:52:41 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:55:21 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:56:53 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(43): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:56:56 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(43): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:58:50 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(45): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 05:58:53 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(NULL, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Products.php(45): CodeIgniter\Model->insert(NULL)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 07:08:41 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::Post()
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 07:11:45 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:06:18 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 E:\xampp\htdocs\restfulapi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\restfulapi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-31 10:08:06 --> Object of class App\Models\ProductModel could not be converted to string
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:08:42 --> Object of class App\Models\ProductModel could not be converted to string
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:09:14 --> Object of class App\Models\ProductModel could not be converted to string
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:09:40 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:10:01 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:10:15 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 10:10:25 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 18:06:31 --> Call to a member function errors() on null
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 18:16:39 --> Class 'App\Controllers\EmployeeModel' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Products->create()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 18:39:53 --> Class 'App\Models\ProductModel' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Produk->index()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 18:49:56 --> Class 'App\Models\M_produk' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Produk->show('15')
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
