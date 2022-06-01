@@ -7,5 +7,6 @@ RESTful API sample with CI4
 
 1. Import rest.sql
 2. Modify database config if necesarry
-3. REST API url = baseURL/product
-4. Test in Postman or etc.
+3. Auth url = baseURL/auth (to get access token)
+4. REST API url = baseURL/product (authenticated w/ token)
+5. Test in Postman or etc.
