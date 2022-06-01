@@ -341,3 +341,161 @@ CRITICAL - 2022-05-31 18:49:56 --> Class 'App\Models\M_produk' not found
 #3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2022-05-31 19:56:29 --> Class 'Config\FilterJwt' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk/', 'before')
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-31 19:59:17 --> Class 'App\Filters\Services' not found
+#0 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk/', 'before')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 20:19:36 --> Class 'App\Filters\Services' not found
+#0 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk/', 'before')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 20:50:15 --> Class 'App\Controllers\M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 20:50:35 --> Class 'App\Controllers\M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 20:51:15 --> Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\restfulapi\app\Models\M_auth.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 31, Array)
+#1 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(40): App\Models\M_auth->getEmail('mohsyahri10@gma...')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-31 20:53:03 --> Undefined index: password
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 20:58:08 --> Undefined index: password
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 21:32:35 --> Undefined index: password
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 21:36:03 --> Call to undefined method App\Models\M_auth::getAccount
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(40): CodeIgniter\Model->__call('getAccount', Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 21:36:31 --> Call to undefined method App\Models\M_auth::getAccount
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(40): CodeIgniter\Model->__call('getAccount', Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 21:36:54 --> Undefined variable: password
+#0 E:\xampp\htdocs\restfulapi\app\Models\M_auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 30, Array)
+#1 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(40): App\Models\M_auth->getAccount('mohsyahri10@gma...', '123')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-31 21:37:25 --> Undefined index: password
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 21:42:14 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in E:\xampp\htdocs\restfulapi\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+#0 E:\xampp\htdocs\restfulapi\app\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'L3tm34Cc3557h3d...')
+#1 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(49): createJWT('mohsyahri10@gma...')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-31 21:42:53 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in E:\xampp\htdocs\restfulapi\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+#0 E:\xampp\htdocs\restfulapi\app\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'L3tm34Cc3557h3d...')
+#1 E:\xampp\htdocs\restfulapi\app\Controllers\Auth.php(49): createJWT('mohsyahri10@gma...')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-31 22:19:43 --> Class 'M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\app\Filters\FilterJwt.php(22): validateJWT('eyJ0eXAiOiJKV1Q...')
+#1 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 22:20:43 --> Class 'App\M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\app\Filters\FilterJwt.php(22): validateJWT('eyJ0eXAiOiJKV1Q...')
+#1 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 22:21:24 --> Class 'App\M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\app\Filters\FilterJwt.php(22): validateJWT('eyJ0eXAiOiJKV1Q...')
+#1 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 22:21:37 --> Class 'M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\app\Filters\FilterJwt.php(22): validateJWT('eyJ0eXAiOiJKV1Q...')
+#1 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 22:21:58 --> Class 'App\M_auth' not found
+#0 E:\xampp\htdocs\restfulapi\app\Filters\FilterJwt.php(22): validateJWT('eyJ0eXAiOiJKV1Q...')
+#1 E:\xampp\htdocs\restfulapi\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('produk', 'before')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\restfulapi\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#6 {main}

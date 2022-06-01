@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 31 Bulan Mei 2022 pada 14.45
+-- Waktu pembuatan: 01 Jun 2022 pada 06.56
 -- Versi server: 10.4.16-MariaDB
 -- Versi PHP: 7.4.12
 
@@ -20,6 +20,25 @@ SET time_zone = "+00:00";
 --
 -- Database: `rest`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `auth`
+--
+
+CREATE TABLE `auth` (
+  `id` int(11) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `auth`
+--
+
+INSERT INTO `auth` (`id`, `email`, `password`) VALUES
+(1, 'mohsyahri10@gmail.com', '7bcc50df20da078969fe7eb5ce92c1352dab34d4');
 
 -- --------------------------------------------------------
 
@@ -45,11 +64,21 @@ INSERT INTO `produk` (`id_produk`, `nama_produk`, `jenis_produk`, `harga_produk`
 (4, 'Asem Manis', 'Botol', 17000, '21'),
 (5, 'Asem Manis Jawi', 'Botol', 20000, '21'),
 (6, 'jago', 'buuk', 12000, '200'),
-(8, 'bahagia', 'pil', 12000, '200');
+(8, 'bahagia', 'pil', 12000, '200'),
+(10, 'aaa', 'bbb', 12222, '12'),
+(11, 'ttt', 'bbb', 12222, '12'),
+(12, 'qwer', 'bbb', 12222, '12'),
+(13, 'qwer', '111', 321111, '2');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indeks untuk tabel `auth`
+--
+ALTER TABLE `auth`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indeks untuk tabel `produk`
@@ -62,10 +91,16 @@ ALTER TABLE `produk`
 --
 
 --
+-- AUTO_INCREMENT untuk tabel `auth`
+--
+ALTER TABLE `auth`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT untuk tabel `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
