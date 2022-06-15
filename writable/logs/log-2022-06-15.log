@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-15 13:02:50 --> Undefined variable: cekproduk
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_dashboard.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 30, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_dashboard', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(21): view('v_dashboard')
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 15:53:39 --> Undefined variable: cekadmin
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_dashboard.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 90, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_dashboard', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(40): view('v_dashboard', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

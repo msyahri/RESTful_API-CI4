@@ -1,0 +1,187 @@
+CRITICAL - 2022-06-13 05:54:18 --> Undefined variable: profil
+#0 E:\xampp\htdocs\restfulapi\app\Views\kontak.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 86, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('kontak', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(20): view('kontak')
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 05:54:46 --> syntax error, unexpected '?>'
+#0 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('kontak', Array, true)
+#2 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(20): view('kontak')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 07:19:45 --> Undefined variable: data2
+#0 E:\xampp\htdocs\restfulapi\app\Views\kontak.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 105, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('kontak', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(20): view('kontak', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 07:25:40 --> Call to undefined method App\Models\M_profil::getProfil
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(21): CodeIgniter\Model->__call('getProfil', Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 07:26:18 --> Call to undefined method App\Models\M_profil::getProfil
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(21): CodeIgniter\Model->__call('getProfil', Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 07:27:00 --> Undefined variable: datap
+#0 E:\xampp\htdocs\restfulapi\app\Views\kontak.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 105, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('kontak', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(20): view('kontak', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 08:43:28 --> Undefined variable: p
+#0 E:\xampp\htdocs\restfulapi\app\Views\kontak.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 110, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('kontak', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Kontak.php(20): view('kontak', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Kontak->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:09:05 --> Trying to get property 'unm' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:09:34 --> Trying to get property 'unm' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:11:58 --> Undefined property: stdClass::$id_pesan
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 62, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:47:09 --> Undefined variable: data
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_tambah_admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 58, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_tambah_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(370): view('AV_tambah_admin')
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->sa_add()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:47:32 --> Undefined variable: data
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_tambah_admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 58, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_tambah_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(370): view('AV_tambah_admin')
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->sa_add()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:59:48 --> Undefined variable: lvl
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_tambah_admin.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 2, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_tambah_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(370): view('AV_tambah_admin')
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->sa_add()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:18:56 --> Cannot use object of type stdClass as array
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 21:21:21 --> Trying to get property 'unm' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 58, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:21:59 --> Cannot use object of type stdClass as array
+#0 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 21:22:41 --> Trying to get property 'unm' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 58, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:23:10 --> Trying to get property 'unm' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 58, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_admin', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(356): view('AV_admin', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->super()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:27:18 --> There is no data to insert.
+#0 E:\xampp\htdocs\restfulapi\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\xampp\htdocs\restfulapi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(404): CodeIgniter\Model->insert(Array)
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->sa_submit()
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

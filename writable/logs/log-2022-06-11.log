@@ -1,0 +1,119 @@
+CRITICAL - 2022-06-11 08:47:42 --> Undefined property: App\Controllers\Admin::$produk
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 37, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 08:50:52 --> Undefined property: App\Controllers\Admin::$produk
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 37, Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 08:56:23 --> Undefined variable: adminprod
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 31, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 08:57:22 --> Undefined variable: pegawai
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 31, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 08:58:35 --> Undefined property: stdClass::$id_pegawai
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 40, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 08:59:04 --> Undefined property: stdClass::$id_pegawai
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 40, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 09:00:03 --> Invalid file: layout/template.php
+#0 E:\xampp\htdocs\restfulapi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('AV_produk', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-11 09:09:58 --> Undefined variable: title
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 6, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_header', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(37): view('v_header', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 09:19:12 --> Undefined variable: row
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 45, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(42): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 09:19:29 --> Undefined variable: row
+#0 E:\xampp\htdocs\restfulapi\app\Views\AV_produk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 45, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('AV_produk', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(42): view('AV_produk', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 11:03:00 --> Invalid file: v_plugins.php
+#0 E:\xampp\htdocs\restfulapi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_plugins.php')
+#1 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_plugins', Array, true)
+#2 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(42): view('v_plugins')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-11 11:03:09 --> Invalid file: v_plugins.php
+#0 E:\xampp\htdocs\restfulapi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_plugins.php')
+#1 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_plugins', Array, true)
+#2 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(42): view('v_plugins')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->produk()
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
