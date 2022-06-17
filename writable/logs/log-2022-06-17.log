@@ -1,0 +1,28 @@
+CRITICAL - 2022-06-17 06:55:35 --> syntax error, unexpected '}', expecting ';' or ','
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(49): helper(Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 07:01:54 --> Array to string conversion
+#0 E:\xampp\htdocs\restfulapi\app\Helpers\RestClient_helper.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xampp\\htdocs...', 27, Array)
+#1 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(52): akses_client('GET', 'http://localhos...', Array)
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-17 07:05:39 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(52): akses_client('GET', 'http://localhos...', Array)
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 07:28:04 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-17 13:14:15 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

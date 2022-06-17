@@ -1,0 +1,287 @@
+CRITICAL - 2022-06-16 04:13:50 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(12): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...')
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 04:17:19 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 04:19:54 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 04:20:07 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 04:24:42 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:49:24 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:49:57 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:50:28 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:50:36 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:50:48 --> 60 : SSL certificate problem: self signed certificate
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://localho...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://localho...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:50:56 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 05:51:09 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://127.0.0....')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://127.0.0....', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:13:11 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:14:03 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:16:17 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:18:25 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:19:03 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:36:12 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:40:41 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(16): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:40:55 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:42:50 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\restfulapi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('restclient')
+#1 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('restclient')
+#2 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-16 06:43:34 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 06:43:51 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:16:23 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(13): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:16:52 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(13): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:26:13 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:27:55 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:30:52 --> 22 : The requested URL returned error: 401 Unauthorized
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-16 07:36:54 --> 22 : The requested URL returned error: 404 Not Found
+#0 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 E:\xampp\htdocs\restfulapi\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhos...')
+#3 E:\xampp\htdocs\restfulapi\app\Controllers\RestClient.php(15): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhos...', Array)
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\RestClient->index()
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\restfulapi\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 {main}
