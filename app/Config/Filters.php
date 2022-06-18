@@ -25,8 +25,10 @@ class Filters extends BaseConfig
         'secureheaders' => SecureHeaders::class,
         'cors'          => \App\Filters\Cors::class,
         'auth'          => \App\Filters\FilterJwt::class,
-        'admin'          => \App\Filters\Admin::class,
-        'login'          => \App\Filters\Login::class
+        'admin'         => \App\Filters\Admin::class,
+        'login'         => \App\Filters\Login::class,
+        'agen'          => \App\Filters\Agen::class,
+        'login_agen'    => \App\Filters\Login_agen::class
     ];
 
     /**
@@ -70,8 +72,8 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
-        'auth' =>[
-            'before' =>[
+        'auth' => [
+            'before' => [
                 'produk/*',
                 'produk'
             ]

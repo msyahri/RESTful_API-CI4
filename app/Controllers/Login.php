@@ -1,13 +1,20 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\M_profil;
 
 class Login extends BaseController
 {
+    function __construct()
+    {
+        $this->profil = new M_profil();
+    }
+
     public function index()
     {
         $M_admin = new \App\Models\M_admin();
         $login = $this->request->getPost('login');
+        $data['profil'] = $this->profil->findAll();
 
 
         if ($login) {

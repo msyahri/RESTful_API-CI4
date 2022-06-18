@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->resource('produk');
 $routes->get('/admin', 'Admin::index', ['filter' => 'admin'] );
+$routes->get('/agen', 'Agen::index', ['filter' => 'agen'] );
 
 // Manage Produk Routes
 $routes->get('/admin/produk', 'Admin::produk', ['filter' => 'admin'] );
@@ -75,6 +76,7 @@ $routes->get('/admin/hapus_apis/(:num)', 'Admin::hapus_apis/$1', ['filter' => 'a
 
 
 $routes->get('/login', 'Login::index', ['filter' => 'login'] );
+$routes->get('/login_agen', 'Login_agen::index', ['filter' => 'login_agen'] );
 
 
 

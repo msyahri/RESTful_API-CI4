@@ -57,22 +57,22 @@
                                               <td align="center"><?= $no++; ?></td>
                                               <td><?= $row->email; ?></td>
                                               <td align="center">
-                                                  <?php if ($row->id == 0) : ?>
+                                                  <?php if ($row->id == 1) : ?>
                                                     <span class="badge badge-info">SUPER</span>
                                                   <?php endif; ?>
 
-                                                  <?php if ($row->id != 0) : ?>
+                                                  <?php if ($row->id != 1) : ?>
                                                       <a title="Edit" href="<?= base_url("admin/reset_apis/$row->id"); ?>" class="btn btn-warning btn-sm"><i class="fas fa-undo-alt"></i></a>
                                                   <?php endif; ?>
                                               </td>
 
 
                                               <td align="center">
-                                                  <?php if ($row->id == 0) : ?>
+                                                  <?php if ($row->id == 1) : ?>
                                                     <span class="badge badge-info">SUPER</span>
                                                   <?php endif; ?>
 
-                                                  <?php if ($row->id != 0) : ?>
+                                                  <?php if ($row->id != 1) : ?>
                                                      <a title="Delete" href="<?= base_url("admin/hapus_apis/$row->id") ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ?')"><i class="fas fa-trash-alt"></i></a>
                                                   <?php endif; ?>
                                               </td>
