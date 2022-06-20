@@ -1,6 +1,6 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2022 <a href="https://jalumasbanyumas.com">JalumasBanyumas API</a>.</strong>
-    | All rights reserved.
+    <strong> &copy; 2022 <a href="https://jalumasbanyumas.com">JalumasBanyumas API</a>.</strong>
+    <!-- | All rights reserved. --> | <b>Kelompok 5</b>
     <div class="float-right d-none d-sm-inline-block">
       <b>Admin</b> Panel
     </div>

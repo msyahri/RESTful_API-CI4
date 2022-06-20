@@ -29,7 +29,7 @@
               <div class="inner">
                 <h3><?= $cekproduk; ?></h3>
 
-                <p>Produk</p>
+                <h4>Produk</h4>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -44,10 +44,10 @@
               <div class="inner">
                 <h3><?= $cekagen; ?><sup style="font-size: 20px"></sup></h3>
 
-                <p>Agen</p>
+                <h4>Agen</h4>
               </div>
               <div class="icon">
-                <i class="ion ion-person"></i>
+                <i class="fa fa-users"></i>
               </div>
               <a href="#" class="small-box-footer">Selengkapnya <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -59,10 +59,10 @@
               <div class="inner">
                 <h3><?= $cekagen; ?></h3>
 
-                <p>User API</p>
+                <h4>API User</h4>
               </div>
               <div class="icon">
-                <i class="ion ion-key"></i>
+                <i class="fa fa-key"></i>
               </div>
               <a href="#" class="small-box-footer">Selengkapnya <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -74,10 +74,10 @@
               <div class="inner">
                 <h3><?= $cekpesan; ?></h3>
 
-                <p>Pesan Masuk</p>
+                <h4>Pesan Masuk</h4>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="fa fa-comment"></i>
               </div>
               <a href="#" class="small-box-footer">Selengkapnya <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -89,10 +89,10 @@
               <div class="inner">
                 <h3><?= $cekadmin; ?></h3>
 
-                <p>Admin</p>
+                <h4>Admin</h4><p>(Akses Utama)
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="ion ion-person"></i>
               </div>
               <a href="#" class="small-box-footer">Selengkapnya <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -102,9 +102,33 @@
             <!-- small box -->
             <div class="small-box bg-secondary">
               <div class="inner">
-                <h3><?= date("H:i:s"); ?></h3>
 
-                <p>WIB</p>
+                <h3><span id="jam"></span></h3>
+                <script type="text/javascript">
+                  window.onload = function() {
+                    jam();
+                  }
+
+                  function jam() {
+                    var e = document.getElementById('jam'),
+                      d = new Date(),
+                      h, m, s;
+                    h = d.getHours();
+                    m = set(d.getMinutes());
+                    s = set(d.getSeconds());
+
+                    e.innerHTML = h + ':' + m + ':' + s;
+
+                    setTimeout('jam()', 1000);
+                  }
+
+                  function set(e) {
+                    e = e < 10 ? '0' + e : e;
+                    return e;
+                  }
+                </script>
+
+                <h4>WIB</h4><p>Waktu Indonesia Barat</p>
               </div>
               <div class="icon">
                 <i class="ion ion-clock"></i>
@@ -117,9 +141,64 @@
             <!-- small box -->
             <div class="small-box bg-primary">
               <div class="inner">
-              <h3><?= date("d-M-Y"); ?></h3>
 
-                <p>Selamat datang.</p>
+                <?php
+
+                function tanggal_indonesia($tanggal, $hari = false)
+                {
+                  $hari = array(
+                    1 =>    'Senin',
+                    'Selasa',
+                    'Rabu',
+                    'Kamis',
+                    'Jumat',
+                    'Sabtu',
+                    'Minggu'
+                  );
+
+                  $bulan = array(
+                    1 =>     'Januari',
+                    'Februari',
+                    'Maret',
+                    'April',
+                    'Mei',
+                    'Juni',
+                    'Juli',
+                    'Agustus',
+                    'September',
+                    'Oktober',
+                    'November',
+                    'Desember'
+                  );
+
+                  $var = explode('-', $tanggal);
+
+                  $nowtime =  $var[2] . ' ' . $bulan[(int)$var[1]] . ' ' . $var[0];
+                  // var 0 = tanggal
+                  // var 1 = bulan
+                  // var 2 = tahun
+                  if ($hari) {
+                    $num = date('N', strtotime($tanggal));
+                    return $hari[$num] . ', ' . $nowtime;
+                  }
+                  return $nowtime;
+                } ?>
+                <h3><?= tanggal_indonesia(date('Y-m-d'), true); ?></h3>
+
+                <?php
+                $jam = date('H:i');
+                if ($jam > '05:30' && $jam < '10:00') {
+                  $salam = 'Pagi';
+                } elseif ($jam >= '10:00' && $jam < '15:00') {
+                  $salam = 'Siang';
+                } elseif ($jam < '18:00') {
+                  $salam = 'Sore';
+                } else {
+                  $salam = 'Malam';
+                }
+                ?>
+
+                <h4><?='Selamat ' . $salam . ','?></h4><p> Semoga hari ini menyenangkan.</p>
               </div>
               <div class="icon">
                 <i class="ion ion-calendar"></i>
@@ -130,9 +209,9 @@
         </div>
         <!-- /.row -->
         <!-- Main row -->
-         <!-- small box -->
-         
-        
+        <!-- small box -->
+
+
 
       </div><!-- /.container-fluid -->
     </section>

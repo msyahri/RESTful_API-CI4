@@ -35,9 +35,9 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item <?php if (in_array($activeMenu, ['dashboard','produk', 'agen','kontak','admin','apis'])) echo
+          <li class="nav-item <?php if (in_array($activeMenu, ['dashboard','produk', 'agen','kontak','admin','apis','report', 'profil'])) echo
           "menu-open"?>">
-            <a href="#" class="nav-link <?php if (in_array($activeMenu, ['dashboard','produk', 'agen','kontak','admin','apis'])) echo
+            <a href="#" class="nav-link <?php if (in_array($activeMenu, ['dashboard','produk', 'agen','kontak','admin','apis','report', 'profil'])) echo
           "active"?>">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
@@ -55,7 +55,7 @@
         
           <li class="nav-item">
             <a href="<?php echo base_url('admin/produk') ?>" class="nav-link <?php if ($activeMenu == 'produk') echo "active" ?>"> 
-              <i class="nav-icon far fa-edit"></i>
+              <i class="nav-icon far fa-list-alt"></i>
               <p>
                 Produk
                 <span class="badge badge-warning right">IMPORTANT</span>
@@ -71,6 +71,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="<?php echo base_url('admin/report') ?>" class="nav-link <?php if ($activeMenu == 'report') echo "active" ?>">
+              <i class="nav-icon fas fa-bookmark"></i>
+              <p>
+                Laporan Agen
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="<?php echo base_url('admin/pesan') ?>" class="nav-link <?php if ($activeMenu == 'kontak') echo "active" ?>">
               <i class="nav-icon fas fa-comments"></i>
               <p>
@@ -78,8 +86,6 @@
               </p>
             </a>
           </li>
-          
-          
           <li class="nav-header"><b>KREDENSIAL AKSES</b></li>
           <li class="nav-item">
           <a href="<?php echo base_url('admin/apis') ?>" class="nav-link <?php if ($activeMenu == 'apis') echo "active" ?>">
@@ -93,6 +99,14 @@
               <p>Akses <b>Admin</b></p>
             </a>
           </li>
+          <li class="nav-header"><b>Info Kontak</b></li>
+          <li class="nav-item">
+          <a href="<?php echo base_url('admin/profil/1') ?>" class="nav-link <?php if ($activeMenu == 'profil') echo "active" ?>">
+              <i class="fas fa-cog nav-icon"></i>
+              <p>Atur <b>Info</b></p>
+            </a>
+          </li>
+        </ul>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

@@ -16,7 +16,7 @@ class Kontak extends BaseController
     public function index()
     {
         $data['kontak'] = $this->kontak->findAll();
-         $datap['profil'] = $this->profil->findAll();
+        $datap['profil'] = $this->profil->findAll();
         return view('kontak', $datap);
     }
 

@@ -1,0 +1,137 @@
+CRITICAL - 2022-06-19 06:25:19 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 06:25:19 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 06:25:19 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 07:23:11 --> Trying to get property 'stok' of non-object
+#0 E:\xampp\htdocs\restfulapi\app\Views\agen\v_report.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 79, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('agen/v_report', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Agen.php(58): view('agen/v_report', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Agen->report()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agen))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 07:23:52 --> Undefined index: stok
+#0 E:\xampp\htdocs\restfulapi\app\Views\agen\v_report.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 79, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('agen/v_report', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Agen.php(58): view('agen/v_report', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Agen->report()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agen))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 07:52:28 --> Undefined variable: row
+#0 E:\xampp\htdocs\restfulapi\app\Views\agen\v_report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 12, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('agen/v_report', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Agen.php(58): view('agen/v_report', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Agen->report()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agen))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 07:59:16 --> Undefined variable: row
+#0 E:\xampp\htdocs\restfulapi\app\Views\agen\v_report.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 12, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('agen/v_report', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Agen.php(58): view('agen/v_report', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Agen->report()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agen))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 09:48:00 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 09:48:00 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 10:11:44 --> Undefined variable: hari
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_dashboard.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 188, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_dashboard', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(45): view('v_dashboard', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 10:12:20 --> Undefined variable: hari
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_dashboard.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 188, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_dashboard', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(45): view('v_dashboard', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 10:13:16 --> Undefined variable: hari
+#0 E:\xampp\htdocs\restfulapi\app\Views\v_dashboard.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 188, Array)
+#1 E:\xampp\htdocs\restfulapi\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('v_dashboard', Array, true)
+#4 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(45): view('v_dashboard', Array)
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 11:23:18 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 11:42:46 --> Invalid file: agen/v_home.php
+#0 E:\xampp\htdocs\restfulapi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('agen/v_home.php')
+#1 E:\xampp\htdocs\restfulapi\system\Common.php(1089): CodeIgniter\View\View->render('agen/v_home', Array, true)
+#2 E:\xampp\htdocs\restfulapi\app\Controllers\Agen.php(117): view('agen/v_home')
+#3 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Agen->home()
+#4 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agen))
+#5 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-19 12:19:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`rest`.`auth`, CONSTRAINT `auth_ibfk_1` FOREIGN KEY (`email`) REFERENCES `agen` (`email_agen`))
+CRITICAL - 2022-06-19 12:19:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`rest`.`auth`, CONSTRAINT `auth_ibfk_1` FOREIGN KEY (`email`) REFERENCES `agen` (`email_agen`))
+#0 E:\xampp\htdocs\restfulapi\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ag...', 0)
+#1 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ag...')
+#2 E:\xampp\htdocs\restfulapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ag...')
+#3 E:\xampp\htdocs\restfulapi\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ag...', Array, false)
+#4 E:\xampp\htdocs\restfulapi\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\restfulapi\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\restfulapi\app\Controllers\Admin.php(332): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(832): App\Controllers\Admin->hapus_agen('3')
+#8 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-19 12:28:05 --> unlink(E:\xampp\htdocs\restfulapi\writable\debugbar/debugbar_1655616344.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(E:\\xampp...', 'E:\\xampp\\htdocs...', 74, Array)
+#1 E:\xampp\htdocs\restfulapi\system\Debug\Toolbar\Collectors\History.php(74): unlink('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\restfulapi\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1655616478, 20)
+#3 E:\xampp\htdocs\restfulapi\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 E:\xampp\htdocs\restfulapi\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 E:\xampp\htdocs\restfulapi\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 E:\xampp\htdocs\restfulapi\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 E:\xampp\htdocs\restfulapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-19 12:32:12 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 12:32:12 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-19 12:32:12 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

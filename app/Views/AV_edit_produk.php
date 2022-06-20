@@ -56,7 +56,7 @@
                       </div>
 
                       <div class="form-group">
-                          <label for="stok_produk">Stok Sroduk</label>
+                          <label for="stok_produk">Stok Utama Produk</label>
                           <input type="text" class="form-control" id="stok_produk" name="stok_produk" value="<?= $produk->stok_produk; ?>" />
                       </div>
 

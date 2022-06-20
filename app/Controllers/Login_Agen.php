@@ -35,7 +35,7 @@ class Login_Agen extends BaseController
                 ];
                 session()->set($dataSesi);
                 // return redirect()->to('RestClient');
-                return redirect()->to('agen');
+                return redirect()->to('agen/home');
             }
 
             if ($err) {

@@ -35,6 +35,14 @@ $routes->get('/', 'Home::index');
 $routes->resource('produk');
 $routes->get('/admin', 'Admin::index', ['filter' => 'admin'] );
 $routes->get('/agen', 'Agen::index', ['filter' => 'agen'] );
+$routes->get('/restclient', 'RestClient::index', ['filter' => 'agen'] );
+$routes->get('/login', 'Login::index', ['filter' => 'login'] );
+$routes->get('/login_agen', 'Login_agen::index', ['filter' => 'login_agen'] );
+
+//Manage Report on Agen View
+$routes->get('/agen/report', 'Agen::report', ['filter' => 'agen'] );
+$routes->get('/agen/edit_report/(:num)', 'Agen::edit_report/$1', ['filter' => 'agen'] );
+$routes->post('/agen/redo_report/(:num)', 'Agen::redo_report/$1', ['filter' => 'agen'] );
 
 // Manage Produk Routes
 $routes->get('/admin/produk', 'Admin::produk', ['filter' => 'admin'] );
@@ -74,11 +82,17 @@ $routes->get('/admin/reset_apis/(:num)', 'Admin::reset_apis/$1', ['filter' => 'a
 $routes->post('/admin/redo_apis/(:num)', 'Admin::redo_apis/$1', ['filter' => 'admin'] );
 $routes->get('/admin/hapus_apis/(:num)', 'Admin::hapus_apis/$1', ['filter' => 'admin'] );
 
+// Manage Report Routes
+$routes->get('/admin/report', 'Admin::report', ['filter' => 'admin'] );
+$routes->get('/admin/report_add', 'Admin::report_add', ['filter' => 'admin'] );
+$routes->post('/admin/report_submit', 'Admin::report_submit', ['filter' => 'admin'] );
+$routes->get('/admin/edit_report/(:num)', 'Admin::edit_report/$1', ['filter' => 'admin'] );
+$routes->post('/admin/redo_report/(:num)', 'Admin::redo_report/$1', ['filter' => 'admin'] );
+$routes->get('/admin/hapus_report/(:num)', 'Admin::hapus_report/$1', ['filter' => 'admin'] );
 
-$routes->get('/login', 'Login::index', ['filter' => 'login'] );
-$routes->get('/login_agen', 'Login_agen::index', ['filter' => 'login_agen'] );
-
-
+// Manage INFO PROFIL
+$routes->get('/admin/profil/(:num)', 'Admin::profil/$1', ['filter' => 'admin'] );
+$routes->post('/admin/redo_profil/(:num)', 'Admin::redo_profil/$1', ['filter' => 'admin'] );
 
 /*
  * --------------------------------------------------------------------

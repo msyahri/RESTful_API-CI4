@@ -23,15 +23,11 @@
                  </ul>
 
                  <ul class="nav navbar-nav navbar-right">
-                     <li>
-                         <a href="">
-                             <p>Account</p>
-                         </a>
-                     </li>
-                    
+                     
                      <li>
                          <a href="<?php echo site_url('agen/logout') ?>">
-                             <p>Log out</p>
+                         
+                         <p style="color:#c70606"><b>Log out</b> <i class="fa fa-sign-out"></i></p>
                              
                          </a>
                      </li>

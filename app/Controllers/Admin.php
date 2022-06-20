@@ -7,6 +7,8 @@ use App\Models\M_agen;
 use App\Models\M_kontak;
 use App\Models\M_sa;
 use App\Models\M_apis;
+use App\Models\M_report;
+use App\Models\M_profil;
 
 class Admin extends BaseController
 {
@@ -17,6 +19,8 @@ class Admin extends BaseController
         $this->kontak = new M_kontak();
         $this->admin = new M_sa();
         $this->apis = new M_apis();
+        $this->report = new M_report();
+        $this->profil = new M_profil();
     }
 
     public function index()
@@ -34,7 +38,7 @@ class Admin extends BaseController
         $data['cekapis'] = $cekapis;
         $data['cekpesan'] = $cekpesan;
         $data['cekadmin'] = $cekadmin;
-        
+
         echo view('v_header', $data);
         echo view('v_navbar');
         echo view('v_sidebar', $data);
@@ -173,7 +177,7 @@ class Admin extends BaseController
             'nama_produk' => $this->request->getVar('nama_produk'),
             'jenis_produk' => $this->request->getVar('jenis_produk'),
             'harga_produk' => $this->request->getVar('harga_produk'),
-            'stok_produk' => $this->request->getVar('jenis_produk')
+            'stok_produk' => $this->request->getVar('stok_produk')
         ]);
         session()->setFlashdata('message', 'Berhasil Memperbarui Produk!');
         return redirect()->to('/admin/produk');
@@ -230,7 +234,7 @@ class Admin extends BaseController
                 'rules' => 'required|valid_email',
                 'errors' => [
                     'required' => '{field} Harus diisi',
-                    'valid_email' => 'Email Harus Valid'
+                    'valid_email' => 'Email harus valid'
                 ]
             ],
             'nope_agen' => [
@@ -397,7 +401,7 @@ class Admin extends BaseController
                 'rules' => 'required|valid_email',
                 'errors' => [
                     'required' => 'Masukkan email!',
-                    'valid_email' => 'Email Harus Valid'
+                    'valid_email' => 'Email harus valid'
                 ]
             ],
             'u_p' => [
@@ -601,5 +605,187 @@ class Admin extends BaseController
         $this->apis->delete($id);
         session()->setFlashdata('message', 'Berhasil Menghapus Kredensial!');
         return redirect()->to('/admin/apis');
+    }
+
+
+    //MANAGE REPORT CONTROLLER
+    public function report()
+    {
+        $data['title'] = "Laporan Agen";
+        $data['activeMenu'] = "report";
+        $data['report'] = $this->report->findAll();
+        echo view('v_header', $data);
+        echo view('v_navbar');
+        echo view('v_sidebar', $data);
+        echo view('AV_report', $data);
+        echo view('v_footer');
+        echo view('v_plugins');
+    }
+
+    public function report_add()
+    {
+        $data['agen'] = $this->agen->findAll();
+        $data['title'] = "Laporan Agen";
+        $data['activeMenu'] = "report";
+        $data['report'] = $this->report->findAll();
+        echo view('v_header', $data);
+        echo view('v_navbar');
+        echo view('v_sidebar', $data);
+        echo view('AV_tambah_report');
+        echo view('v_footer');
+    }
+
+    public function report_submit()
+    {
+        if (!$this->validate([
+            'email' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Pilih email!'
+                ]
+            ],
+            'nama_agen' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Pilih agen!'
+                ]
+            ],
+            'stok' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan jumlah stok awal!'
+                ]
+            ],
+        ])) {
+            session()->setFlashdata('error', $this->validator->listErrors());
+            return redirect()->back()->withInput();
+        }
+
+        $terjual = 0;
+
+        $this->report->insert([
+            'email' => $this->request->getVar('email'),
+            'nama_agen' => $this->request->getVar('nama_agen'),
+            'stok' => $this->request->getVar('stok'),
+            'terjual' => $terjual,
+        ]);
+        session()->setFlashdata('message', 'Berhasil Menambahkan Pantauan Penjualan Agen!');
+        return redirect()->to('/admin/report');
+    }
+
+    function edit_report($id)
+    {
+        $dataReport = $this->report->find($id);
+        if (empty($dataReport)) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Report Tidak ditemukan !');
+        }
+        $data['report'] = $dataReport;
+        $data['title'] = "Update Pantauan Penjualan";
+        $data['activeMenu'] = "report";
+        echo view('v_header', $data);
+        echo view('v_navbar');
+        echo view('v_sidebar', $data);
+        echo view('AV_edit_report', $data);
+        echo view('v_footer');
+    }
+
+    public function redo_report($id)
+    {
+        if (!$this->validate([
+            'stok' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan stok baru!'
+                ]
+            ],
+            'terjual' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan data terjual!'
+                ]
+            ],
+        ])) {
+            session()->setFlashdata('error', $this->validator->listErrors());
+            return redirect()->back();
+        }
+
+        $this->report->update($id, [
+            'stok' => $this->request->getVar('stok'),
+            'terjual' => $this->request->getVar('terjual'),
+            'upah' => $this->request->getVar('upah')
+        ]);
+        session()->setFlashdata('message', 'Berhasil Memperbarui Laporan!');
+        return redirect()->to('/admin/report');
+    }
+
+    function hapus_report($id)
+    {
+        $dataReport = $this->report->find($id);
+        if (empty($dataReport)) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Report Tidak ditemukan !');
+        }
+        $this->report->delete($id);
+        session()->setFlashdata('message', 'Berhasil Menghapus Pantauan Report!');
+        return redirect()->to('/admin/report');
+    }
+
+    //Manage INFO KONTAK Controller
+    function profil($id)
+    {
+        $dataProfil = $this->profil->find($id);
+        if (empty($dataProfil)) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Data Profil Tidak ditemukan !');
+        }
+        $data['profil'] = $dataProfil;
+        $data['title'] = "Update Info Kontak";
+        $data['activeMenu'] = "profil";
+        echo view('v_header', $data);
+        echo view('v_navbar');
+        echo view('v_sidebar', $data);
+        echo view('AV_edit_profil', $data);
+        echo view('v_footer');
+    }
+
+    public function redo_profil($id)
+    {
+        if (!$this->validate([
+            'alamat' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan alamat!'
+                ]
+            ],
+            'nope' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan nomor telepon!'
+                ]
+            ],
+            'email' => [
+                'rules' => 'required|valid_email',
+                'errors' => [
+                    'required' => 'Masukkan email!',
+                    'valid_email' => 'Email harus valid'
+                ]
+            ],
+            'website' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Masukkan alamat website!'
+                ]
+            ],
+        ])) {
+            session()->setFlashdata('error', $this->validator->listErrors());
+            return redirect()->back();
+        }
+
+        $this->profil->update($id, [
+            'alamat' => $this->request->getVar('alamat'),
+            'nope' => $this->request->getVar('nope'),
+            'email' => $this->request->getVar('email'),
+            'website' => $this->request->getVar('website')
+        ]);
+        session()->setFlashdata('message', 'Berhasil Memperbarui Info Kontak!');
+        return redirect()->to('/admin/profil/1');
     }
 }

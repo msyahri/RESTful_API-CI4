@@ -50,14 +50,16 @@ class RestClient extends BaseController
         $url = 'http://localhost/restfulapi/public/produk';
         $data = [];
         $response = akses_client('GET', $url, $data);
-        // echo $response;
+        echo $response;
 
         $dataArray = json_decode($response, true);
         foreach ($dataArray as $values) {
+            echo "<br/><br/>";
+            echo "[DECODED]<br/>";
             echo "Nama Produk: " .$values['nama_produk'] . "<br/>"; 
             echo "Jenis Produk: " .$values['jenis_produk'] . "<br/>"; 
             echo "Harga Produk: " .$values['harga_produk'] . "<br/>"; 
-            echo "Stok Produk: " .$values['stok_produk'] . "<br/><br/>"; 
+            echo "Stok Produk: " .$values['stok_produk'] . "<br/>"; 
         }
     }
 }

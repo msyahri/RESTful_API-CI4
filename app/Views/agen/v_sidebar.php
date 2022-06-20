@@ -1,7 +1,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="blue" data-image="<?php echo base_url('assets/login') ?>/agen/img/sidebar-5.jpg">
 
     <!--
 
@@ -18,16 +18,16 @@
             </div>
 
             <ul class="nav">
-                <li class="<?php if ($menu == 'produk') echo "active" ?>">
-                    <a href="dashboard.html">
+                <li class="<?php if ($menu == 'home') echo "active" ?>">
+                <a href="<?= base_url("agen/home"); ?>">
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>User Profile</p>
+                <li class="<?php if ($menu == 'produk') echo "active" ?>">
+                    <a href="<?= base_url("agen/"); ?>">
+                        <i class="pe-7s-server"></i>
+                        <p>Data Produk (Server)</p>
                     </a>
                 </li>
                 <!-- <li>
@@ -36,10 +36,10 @@
                         <p>Table List</p>
                     </a>
                 </li> -->
-                <li>
-                    <a href="typography.html">
+                <li class="<?php if ($menu == 'report') echo "active" ?>">
+                <a href="<?= base_url("agen/report"); ?>">
                         <i class="pe-7s-news-paper"></i>
-                        <p>Typography</p>
+                        <p>Laporan Penjualan</p>
                     </a>
                 </li>
                 <!-- <li>
@@ -61,9 +61,9 @@
                     </a>
                 </li> -->
 				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
-                        <p>Upgrade to PRO</p>
+                    <a href="https://jalumasbanyumas.com">
+                        <i class="pe-7s-home"></i>
+                        <p>Jalumas Banyumas</p>
                     </a>
                 </li>
             </ul>

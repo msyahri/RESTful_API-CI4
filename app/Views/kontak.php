@@ -5,7 +5,7 @@
 	<title>Kontak Jalumas Banyumas</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<link rel="icon" type="image/png" href="<?php echo base_url('assets') ?>/login/images/lg.png"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -100,14 +100,19 @@
 							</div>
 							<div class="col-md-5 d-flex align-items-stretch">
 								<div class="info-wrap bg-primary w-100 p-lg-5 p-4">
-									<h3 class="mb-4 mt-md-4">Contact us</h3>
+								<?php
+        							
+                     					foreach ($profil as $row) {
+                    
+                    			?>
+									<h3 class="mb-4 mt-md-4">Hubungi Kami</h3>
 									
 									<div class="dbox w-100 d-flex align-items-start">
 										<div class="icon d-flex align-items-center justify-content-center">
 											<span class="fa fa-map-marker"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Alamat:</p>
+											<p><?= $row->alamat; ?></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -115,7 +120,7 @@
 											<span class="fa fa-phone"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+											<p><a href="tel://<?= $row->nope; ?>"><?= $row->nope; ?></a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -123,7 +128,7 @@
 											<span class="fa fa-paper-plane"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+											<p><a href="mailto:<?= $row->email; ?>"><?= $row->email; ?></a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -131,10 +136,10 @@
 											<span class="fa fa-globe"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span>Website</span> <a href="#">yoursite.com</a></p>
+											<p><a href="http://<?= $row->website; ?>"><?= $row->website; ?></a></p>
 										</div>
 									</div>
-								
+									<?php } ?>
 								</div>
 							</div>
 						</div>
